@@ -1,8 +1,15 @@
-# Proiect-PI-MindEye-
-MindEye este o aplicatie intuitiva cu scopul realizarii designurilor complexe fara a fi necesara o instruire detaliata a programului.
+# Proiect-P3-MindEye
 
-Aplicatia va contine un AI de tip generativ/instructor care te poate ajuta sa-ti realizezi sau sa-ti dai seama ce tip de design vrei de fapt sa faci si unde in aplicatie poti gasi unele lucruri pentru designurile mai complexe.
-Pe langa asta aplicatia va contine un API de gasire a fonturilor si poate altele mai multe, momentan n-am idee exact ce API-uri exista sau cum va iesi aplicatia dar asta e ideea principala: Sa reusesti sa faci designuri
-exact cum iti vine in minte fara sa petreci ore in sir sa-ti dai seama cum functioneaza aplicatia.
+## Descriere
 
-Limbajul principal cu care o voi face va fi Java, in rest nu stiu momentan ce va mai trebui sa invat ca sa-mi realizez aplicatia
+MindEye este o aplicatie desktop care te ajuta sa realizezi designuri [ex. postere, logo-uri, grafica pentru social media] fara sa fie nevoie sa inveti ore in sir cum functioneaza programul.
+
+Problema pe care o rezolva: programele de design cunoscute (ex. Photoshop, Illustrator) sunt foarte puternice, dar greu de folosit pentru cineva care e la inceput. De multe ori stii ce vrei sa faci, dar nu stii unde sa gasesti unealta potrivita.
+
+Aplicatia este gandita pentru incepatori si pentru oricine vrea sa faca un design rapid, exact cum ii vine in minte. Pe langa uneltele de baza, MindEye va avea un asistent AI care te ajuta sa-ti dai seama ce tip de design vrei sa faci si iti arata unde in aplicatie gasesti lucrurile de care ai nevoie.
+
+## Cerinte de baza
+
+1. Utilizatorul poate crea un proiect nou, il poate salva si il poate deschide mai tarziu.
+2. Utilizatorul poate adauga, muta, redimensiona si sterge forme si text pe suprafata de lucru.
+3. Utilizatorul poate alege un font pentru text dintr-o lista preluata prin Google Fonts API.
